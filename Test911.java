@@ -1,4 +1,3 @@
-package com.core;
 
 public class Test911 {
 	public static void main(String[] args) {
