@@ -1,19 +1,17 @@
-package oops;
+package com.core;
 
 public class Test11 {
-public static void main(String[] args) {
-	System.out.println("main:"+Hello1.a);
-}
-}
 
-class Hello1
-{
-	static int a;
-	int b;
-	static 
-	{
-		a=10;
-		//b=10; error
-		System.out.println("static block");
+	public static void main(String[] args) {
+		
+		int []ab, bc, cd[];
+		ab=new int[2];
+		bc=new int[33];
+		cd=new int[3][];
+		System.out.println(ab.length);
+		System.out.println(bc.length);
+		System.out.println(cd.length);
+		
+		
 	}
 }
